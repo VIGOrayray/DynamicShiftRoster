@@ -1,0 +1,286 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background-image:url(pictures/bg.jpg);
+	background-attachment:fixed;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+a {
+	color:#5f9ea0;
+}
+a:hover {
+	color:#fff;
+}
+.balack1{
+	color:#333;
+}
+.Header{
+	height: 44px;
+	background-image:url(pictures/background.png);
+	width: 100%;
+	float:left;
+}
+.LoginSpace{
+	width:100%;
+	max-width:500px;
+	margin:0 auto;
+	border:3px solid #FFF;
+	margin-top:100px;
+}
+.Logospace{
+	width:230px;
+	height:200px;
+	margin:0 auto;
+	background-image:url(pictures/logo.png);
+	background-size:cover;
+}
+nav{
+	float: left;
+	width: 100%;
+	background-image:url(pictures/background.png);
+	height: 100vh;
+	padding-top: 44px;
+
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li{
+	padding: 10px 0px;
+	border-bottom: 1px solid #333;
+	text-align: center;
+}
+
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	display: block;
+	background-color: #06C;
+	text-decoration:none;
+}
+.main-content{
+	float:left;
+	font-size:140%;
+}
+
+footer{
+	position: fixed;
+	background-color: #666;
+	width: 100%;
+	padding-top:10px;
+	margin-left: 125px;
+	text-align: center;
+}
+
+.header-1{
+	width: 33%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #5F9EA0;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+ 
+
+
+.text{
+	width: 300px;
+}
+
+.Input-Group label ,.Input-Group select{
+	display: inline-block;
+	text-align: center;
+	color:#fff;
+}
+.inputSpace{
+	background-image:url(pictures/background.png);
+	padding:10px;
+}
+.drop{
+   color: #555;
+   background-color: #5f9ea0;
+}
+.xx{
+	float:right;
+	color:#5f9ea0;
+	width:30px;
+}
+.whiteText{
+	color:#fff;}
+.Input-Group input ,.Input-Group select{
+	height: 30px;
+	width: 100%;
+	padding-left: 5px;
+	padding-bottom: 10PX;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	
+}
+table{
+	width:100%;
+	color:rgb(255, 255, 255);
+}
+
+
+.btn{
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+	}
+
+.h2-1{
+	font-size: 20px;
+}
+tr:nth-child(even){
+	background-color:#333;
+}
+tr:nth-child(odd){
+	background-color:#444;
+}
+.main1{
+	width:100%;
+	background-color:#0066FF;
+	border:1px solid #03F;
+	float:left;
+	margin-bottom:20px;
+}
+.main1Text{
+	float:left;
+	color:#FFFFFF;
+	margin:5px;
+}
+.main1Icon{
+	float:right;
+	color:#FFFFFF;
+	margin:5px;
+}
+.main1No{
+	float:right;
+	color:#FFFFFF;
+	margin:5px;
+}
+.ListItems{
+	width:100%;
+	background-color:#FFFFFF;
+}
+th{
+	background-color:#5f9ea0;
+	color:#FFFFFF;
+}
+.notice{
+	width:100%;
+	max-width:800px;
+	margin:0 auto;
+	padding:20px;
+	color:#FFFFFF;
+	text-align:center;
+}
+.h2{
+	color:#FFFFFF;
+}
+.textIcon{
+	float:left;
+	width:20px;
+	height:20px;
+	color:#FFFFFF;
+}
+.textText{
+	color:#FFFFFF;
+}
+.textRow{
+	width:100%;
+	float:left;
+}
+.topDiv{
+	z-index:500;
+	right:1px;
+	top:-0px;
+	position:absolute;
+	height:1000px;
+	background-color:#FFFFFF;
+	background-image:url(pictures/bg.jpg);
+	background-size:cover;
+}
+.topDivInfo{
+	width:100%;
+	padding:10px;
+	text-align:center;
+	color:#FFFFFF;
+}
+.topDivInfoText{
+	width:100%;
+	color:#FFFFFF;
+	text-align:center;
+}
+.topDivInfoBtn{
+	margin:0 auto;
+	width:200px;
+	margin-bottom:10px;
+}
+@media screen and (min-width: 600px) {
+	nav {width: 120px;
+		font-size: 20px}
+
+p{font-size: 20px}
+footer{
+			footer{
+				margin-left: 125px;
+			}
+} 
+
+
+
+@media screen and (min-width: 1000px) {
+	nav {width: 240px;
+		font-size: 20px}
+
+p{font-size: 25px}
+footer{
+				margin-left: 245px;
+			}
+}
+.dayCont{
+	width:90%;
+	margin:0 auto;
+	height:20px;
+	margin-bottom:5px;
+	font-size:12px;
+	padding-top:3px;
+}
+.Empp1{
+	width:20px;
+	float:left;
+	margin-right:10px;
+	color:#CC9900;
+}
+.Empcall{
+	width:20px;
+	float:left;
+	margin-right:10px;
+	color:#CC0066;
+}
+.Empboth{
+	width:20px;
+	float:left;
+	margin-right:10px;
+	color:#fff;
+}
+
